@@ -15,6 +15,10 @@
 		1B432AE92B06146100968134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B432AE72B06146100968134 /* LaunchScreen.storyboard */; };
 		1B432AF42B06146200968134 /* examel1evalEjerc2DiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B432AF32B06146200968134 /* examel1evalEjerc2DiTests.swift */; };
 		1B432AFF2B06146200968134 /* examel1evalEjerc2DiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B432AFE2B06146200968134 /* examel1evalEjerc2DiUITests.swift */; };
+		1B432B102B06166200968134 /* VotacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B432B0F2B06166200968134 /* VotacionViewController.swift */; };
+		1B432B152B061B2B00968134 /* Votacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B432B142B061B2B00968134 /* Votacion.swift */; };
+		1B432B1A2B061DC700968134 /* ProtocolVotacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B432B192B061DC700968134 /* ProtocolVotacion.swift */; };
+		1B432B1F2B0623E700968134 /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B432B1E2B0623E700968134 /* CeldaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1B432AFA2B06146200968134 /* examel1evalEjerc2DiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examel1evalEjerc2DiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B432AFE2B06146200968134 /* examel1evalEjerc2DiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examel1evalEjerc2DiUITests.swift; sourceTree = "<group>"; };
 		1B432B002B06146200968134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B432B0F2B06166200968134 /* VotacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotacionViewController.swift; sourceTree = "<group>"; };
+		1B432B142B061B2B00968134 /* Votacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Votacion.swift; sourceTree = "<group>"; };
+		1B432B192B061DC700968134 /* ProtocolVotacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolVotacion.swift; sourceTree = "<group>"; };
+		1B432B1E2B0623E700968134 /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				1B432AE52B06146100968134 /* Assets.xcassets */,
 				1B432AE72B06146100968134 /* LaunchScreen.storyboard */,
 				1B432AEA2B06146100968134 /* Info.plist */,
+				1B432B0F2B06166200968134 /* VotacionViewController.swift */,
+				1B432B142B061B2B00968134 /* Votacion.swift */,
+				1B432B192B061DC700968134 /* ProtocolVotacion.swift */,
+				1B432B1E2B0623E700968134 /* CeldaTableViewCell.swift */,
 			);
 			path = examel1evalEjerc2Di;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B432B152B061B2B00968134 /* Votacion.swift in Sources */,
 				1B432AE12B06145F00968134 /* ViewController.swift in Sources */,
+				1B432B102B06166200968134 /* VotacionViewController.swift in Sources */,
 				1B432ADD2B06145F00968134 /* AppDelegate.swift in Sources */,
+				1B432B1F2B0623E700968134 /* CeldaTableViewCell.swift in Sources */,
+				1B432B1A2B061DC700968134 /* ProtocolVotacion.swift in Sources */,
 				1B432ADF2B06145F00968134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
